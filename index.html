@@ -1,18 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<script>
-    function checkAge() {
-      if (confirm("Are you 21 years of age or older?")) {
-        // User is 21 or older, allow access
-        // Proceed with the rest of your website content (your existing HTML code goes here)
-      } else {
-        // User is under 21, display a message
-        alert("You must be at least 21 years old to view this content.");
-      }
-    }
-  </script>
-	
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ahava Aeroponic Cannabis</title>
@@ -78,11 +66,21 @@
             background-color: #218838;
         }
     </style>
+    <script>
+        function checkAge() {
+            if (confirm("Are you 21 years of age or older?")) {
+                document.getElementById("content").style.display = "block"; // Show content
+            } else {
+                alert("You must be at least 21 years old to view this content.");
+                window.location.href = "https://www.google.com"; // Redirect if underage
+            }
+        }
+    </script>
 </head>
-<body>
+<body onload="checkAge()">
 
     <header>
-	 <img src=”https://drive.google.com/file/d/1-KfxeJegMitzVgPN-Bgl7PoLBcdX7yIY/view?usp=drive_link”>
+        <img src="https://drive.google.com/uc?id=1-KfxeJegMitzVgPN-Bgl7PoLBcdX7yIY" alt="Ahava Aeroponic Cannabis Logo">
         <h1>Ahava Aeroponic Cannabis</h1>
         <p>Leading the Future of Cannabis Growth</p>
     </header>
@@ -94,41 +92,44 @@
         <a href="#contact">Contact Us</a>
     </nav>
 
-    <section id="about">
-        <h2>What is Aeroponic Cannabis Cultivation?</h2>
-        <p>Aeroponic cultivation is a revolutionary method where cannabis plants are grown without soil. In this system, plant roots are suspended in the air and misted with a nutrient-rich solution. This allows the plants to absorb more oxygen and nutrients, resulting in faster growth, higher yields, and more potent cannabis.</p>
-    </section>
+    <div id="content" style="display:none;"> <!-- Hidden content initially -->
+        <section id="about">
+            <h2>What is Aeroponic Cannabis Cultivation?</h2>
+            <p>Aeroponic cultivation is a revolutionary method where cannabis plants are grown without soil. In this system, plant roots are suspended in the air and misted with a nutrient-rich solution. This allows the plants to absorb more oxygen and nutrients, resulting in faster growth, higher yields, and more potent cannabis.</p>
+        </section>
 
-    <section id="benefits">
-        <h2>Benefits of Aeroponics</h2>
-        <ul>
-            <li><strong>Enhanced Potency:</strong> Aeroponic cannabis often has higher cannabinoid and terpene levels, delivering stronger effects and richer flavors.</li>
-            <li><strong>Purity and Cleanliness:</strong> Grown in a soilless environment, our cannabis is free from soil-borne contaminants and pests.</li>
-            <li><strong>Consistent Quality:</strong> The controlled environment ensures uniform growth and quality across all plants.</li>
-            <li><strong>Eco-Friendly:</strong> Uses up to 90% less water and fewer resources compared to traditional growing methods.</li>
-        </ul>
-    </section>
+        <section id="benefits">
+            <h2>Benefits of Aeroponics</h2>
+            <ul>
+                <li><strong>Enhanced Potency:</strong> Aeroponic cannabis often has higher cannabinoid and terpene levels, delivering stronger effects and richer flavors.</li>
+                <li><strong>Purity and Cleanliness:</strong> Grown in a soilless environment, our cannabis is free from soil-borne contaminants and pests.</li>
+                <li><strong>Consistent Quality:</strong> The controlled environment ensures uniform growth and quality across all plants.</li>
+                <li><strong>Eco-Friendly:</strong> Uses up to 90% less water and fewer resources compared to traditional growing methods.</li>
+            </ul>
+        </section>
 
-    <section id="process">
-        <h2>Our Aeroponic Process</h2>
-        <p>Our aeroponic systems are designed to maximize growth potential and product quality. Here’s how it works:</p>
-        <ol>
-            <li><strong>Plant Roots Suspended:</strong> Roots are suspended in the air, allowing for maximum oxygen intake.</li>
-            <li><strong>Nutrient Misting:</strong> A nutrient-rich solution is misted directly onto the roots, providing essential nutrients without drowning the plant.</li>
-            <li><strong>Controlled Environment:</strong> Light, temperature, and humidity are precisely controlled to optimize growth.</li>
-            <li><strong>Continuous Monitoring:</strong> Advanced sensors and automated systems monitor the growing conditions 24/7.</li>
-        </ol>
-    </section>
+        <section id="process">
+            <h2>Our Aeroponic Process</h2>
+            <p>Our aeroponic systems are designed to maximize growth potential and product quality. Here’s how it works:</p>
+            <ol>
+                <li><strong>Plant Roots Suspended:</strong> Roots are suspended in the air, allowing for maximum oxygen intake.</li>
+                <li><strong>Nutrient Misting:</strong> A nutrient-rich solution is misted directly onto the roots, providing essential nutrients without drowning the plant.</li>
+                <li><strong>Controlled Environment:</strong> Light, temperature, and humidity are precisely controlled to optimize growth.</li>
+                <li><strong>Continuous Monitoring:</strong> Advanced sensors and automated systems monitor the growing conditions 24/7.</li>
+            </ol>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Ready to take your cannabis products to the next level? Contact us today to learn more about our aeroponic grown cannabis.</p>
-        <a href="mailto:info@ahavagrows.com" class="cta">Get in Touch</a>
-    </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Ready to take your cannabis products to the next level? Contact us today to learn more about our aeroponic grown cannabis.</p>
+            <a href="mailto:info@ahavagrows.com" class="cta">Get in Touch</a>
+        </section>
 
-    <footer>
-        <p>&copy; 2024 Ahava LLC. All rights reserved.</p>
-    </footer>
+        <footer>
+            <p>&copy; 2024 Ahava LLC. All rights reserved.</p>
+        </footer>
+    </div>
 
 </body>
 </html>
+
