@@ -124,7 +124,7 @@ input:focus, textarea:focus {
 /* ------ 1.2 Age Verification Modal ------- */
 
 .modal-overlay {
-    display: none;
+    display: block;
     position: fixed;
     top: 0;
     left: 0;
