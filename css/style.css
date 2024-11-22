@@ -760,6 +760,12 @@ h6 {
     justify-content: space-between;  /* Adjusts spacing to use available space */
 }
 
+#about .row .col-2-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* This ensures that the items are evenly spaced */
+}
+
 /* --------- 5.2 Parallax Elements ---------- */
 
 .banner-parallax-1, .banner-parallax-2, .banner-parallax-3 {
