@@ -29,7 +29,7 @@ a, .la-ball-triangle-path {
 }
 
 a:hover, #header.nav-solid nav a:hover {
-    color:#77BB40;
+    color:#F9F9F9;
 }
 
 /* Default Icon Color */
@@ -64,14 +64,14 @@ a:hover, #header.nav-solid nav a:hover {
 /* Navigation Colors when the Navigation is sticky and solid */ 
 
 #header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
-    color:#666666;
+    color:#F6F5F1;
 }
 
 
 /* Navigation Active State */
 
 #header.nav-solid .active {
-    color: #313035;
+    color: #F6F5F1;
     border-color: #D8CACD;
 }    
 
