@@ -17,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="images/favicon-1.ico" title="Favicon"/>
+    <link rel="shortcut icon" href="images/favicon.ico" title="Favicon"/>
 
     <!-- Main CSS Files -->
     <link rel="stylesheet" href="css/style.css"> 
@@ -33,7 +33,9 @@
     <link href="css/animate.css" rel="stylesheet" type="text/css">
 
     <!--Google Webfonts-->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -41,14 +43,16 @@
     <!-- Age verification modal -->
     <div id="ageModal" class="modal-overlay">
         <div class="modal">
-            <h3>Age Verification</h3>
-            <h4>Are you 21 years of age or older?</h4>
+            <h3 class="section-title">Are you 21 years of age or older?</h3>
+            <h5>Please verify your age to enter this site.</h5>
             <div class="modal-buttons">
                 <button class="modal-button yes-button" onclick="verifyAge(true)">Yes</button>
                 <button class="modal-button no-button" onclick="verifyAge(false)">No</button>
             </div>
         </div>
     </div>    
+    <!-- End of Age verification modal -->
+
 
 <!-- Preloader -->
 <div id="preloader">
@@ -73,11 +77,11 @@
                     <div id="logo">
 
                         <!--Logo that is shown on the banner-->
-                        <img src="images/logo-images/logo-2.png" id="banner-logo" alt="Landing Page"/>
+                        <img src="images/logo-images/logo-3.png" id="banner-logo" alt="Landing Page"/>
                         <!--End of Banner Logo-->
 
                         <!--The Logo that is shown on the sticky Navigation Bar-->
-                        <img src="images/logo-images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                        <img src="images/logo-images/logo-3.png" id="navigation-logo" alt="Landing Page"/>
                         <!--End of Navigation Logo-->
 
                     </div>
@@ -116,12 +120,13 @@
         
         <div id="banner-content" class="row clearfix">
 
-            <div class="col-38">
+            <div class="col-61">
 
                 <div class="section-heading">
-                    <h1>Leading the Future of Cannabis Growth
-                    </h1>
-                    <h2>Take your experience to the next level.</h2>
+                    <h1>Leading the Future of Cannabis Growth</h1>
+                    <h2>Ahava is redefining marijuana cultivation by utilizing state-of-the-art <i><b>aeroponic technology</b></i> 
+                        to deliver unmatched results.
+                    </h2>
                 </div>
 
             </div>
@@ -323,10 +328,10 @@
         <section id="contact" class="secondary-color text-center scrollto clearfix ">
             <div class="row clearfix">
 
-                <div class="section-heading featured wow fadeInUp" data-wow-delay="0.6s">
-                    <h2>Want to learn more about our aeroponic grown cannabis?</h2>
-                    <h2 class="section-title featured wow fadeInUp" data-wow-delay="0.6s">
-                        <a href="mailto:info@ahavagrows.com" class="email-link">info@ahavagrows.com</a></h2>
+                <div class="featured wow fadeInUp" data-wow-delay="0.6s">
+                    <h2 class="section-title">Want to learn more about our aeroponic grown cannabis?</h2>
+                    <h3 class="featured wow fadeInUp" data-wow-delay="0.6s">
+                        <a href="mailto:info@ahavagrows.com" class="email-link">info@ahavagrows.com</a></h3>
                 </div>
 
             </div>
