@@ -15,38 +15,37 @@
 
 
 body {
-    background:#333;
+    background:#F6F5F1;
 }
 
 .gallery {
-    background-color: #222;
+    background-color: #F9F9F9;
 }
-
 
 /* Default Link Color */
 
 a, .la-ball-triangle-path {
-    color:#d2b356;
+    color:#D8CACD;
 }
 
 a:hover, #header.nav-solid nav a:hover {
-    color:#d2b356;
+    color:#77BB40;
 }
 
 /* Default Icon Color */
 
 .icon i {
-    color:#d2b356;
+    color:#77BB40;
 }
 
 /* Border Color */
 
 #banner .section-heading:before, .testimonial.classic footer:before {
-    background: #d2b356;
+    background: #D8CACD;
 }
 
 .contact-block-content:hover {
-    border-color:#d2b356;
+    border-color:#77BB40;
 }
 
 
@@ -58,30 +57,35 @@ a:hover, #header.nav-solid nav a:hover {
 /* Transparent Navigation Color on a Banner */
 
 #header nav a, #header i {
-    color:#d2b356;
+    color:#D8CACD;
 }
 
 
 /* Navigation Colors when the Navigation is sticky and solid */ 
 
 #header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
-    color:#333;
+    color:#666666;
 }
 
 
 /* Navigation Active State */
 
 #header.nav-solid .active {
-    color: #d2b356;
-    border-color: #d2b356;
+    color: #313035;
+    border-color: #D8CACD;
 }    
 
-/* Email link at #Contact */
+/* #Contact */
+
+#contact .section-title {
+    color: #F9F9F9;
+}
 
 #contact .email-link {
-    color: #333;
+    font-family: 'Lato';
+    color: #F6F5F1;
+    font-weight:600;
     text-decoration: none;
-    font-weight: bold;
     position: relative;
     overflow: hidden;
     display: inline-block;
@@ -94,7 +98,7 @@ a:hover, #header.nav-solid nav a:hover {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #333; /* Solid color underline */
+    background-color: #D8CACD; /* Solid color underline */
     transition: width 0.5s ease;
   }
   
@@ -110,15 +114,15 @@ a:hover, #header.nav-solid nav a:hover {
 /* Primary Background and Text Colors */
 
 .primary-color, .featured .contact {
-    background-color:#d2b356;
+    background-color:#D8CACD;
 }
 
 .primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .contact, .featured .contact p {
-    color:#f2f2f2;    
+    color:#313035;    
 }
 
 .section-heading h2:after {
-    background:#d2b356;
+    background:#D8CACD;
     content:"";
     display:block;
     width:30px;
@@ -133,14 +137,14 @@ a:hover, #header.nav-solid nav a:hover {
 /* Primary Icon Colors */
 
 .primary-color .icon i, .primary-color i {
-    color:#f2f2f2;
+    color:#313035;
 }
 
 
 /* Secondary Background and Text Colors */
 
 .secondary-color {
-    background-color:#d2b356;
+    background-color:#313035;
 }
 
 
@@ -152,7 +156,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/banner.jpg") no-repeat center top;
+    background: url("../images/banner-images/banner.png") no-repeat center top;
     background-size:cover;
 }
 
@@ -163,10 +167,10 @@ a:hover, #header.nav-solid nav a:hover {
 
 
 body {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Lato', sans-serif, Arial, Helvetica;
     font-size:15px;
     font-weight:normal;
-    color:#f2f2f2;
+    color:#313035;
 }
 
 /* Logo, if you are using Fonts as Logo and not image
@@ -191,32 +195,36 @@ body {
 /* Banner Typography */
 
 #banner h1 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Merriweather', sans-serif, Arial, Helvetica;
     font-size:62px;
+    font-style: italic;
     line-height:60px;
     font-weight:800;
-    color:#f2f2f2;
+    color:#313035;
+    filter:hue-rotate(-0.4turn) invert(1);
+    mix-blend-mode: difference;
 }
 
 #banner h2 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:18px;
+    font-family: 'Lato', sans-serif, Arial, Helvetica;
+    font-size:25px;
     font-weight:300;
-    color:#f2f2f2;
+    color:#313035;
 }
 
 
 /* Section Title and Subtitle */
 
 .section-title {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 34px; 
+    font-family: 'Merriweather', sans-serif, Arial, Helvetica;
+    font-size: 34px;
+    font-style: italic; 
     font-weight:700;
-    color:#f2f2f2;
+    color:#313035;
 }
 
 .section-subtitle {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Lato', sans-serif, Arial, Helvetica;
     font-size: 16px;
     font-weight:300;
     color:#9c9c9c;
@@ -225,58 +233,58 @@ body {
 /* Testimonial */
 
 .testimonial q {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Lato', sans-serif, Arial, Helvetica;
     font-size: 17px; 
     font-weight:300;
 }
 
 .testimonial.classic q, .testimonial.classic footer {
-    color:#f2f2f2;
+    color:#313035;
 }
 
 
 /* Standard Headings h1-h6 */
 
 h1 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Lato', sans-serif, Arial, Helvetica;
     font-size: 40px; 
     font-weight:300;
-    color:#f2f2f2;
+    color:#313035;
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Merriweather', sans-serif, Arial, Helvetica;
     font-size: 34px; 
     font-weight:300;
-    color:#f2f2f2;
+    color:#313035;
 }
 
 h3 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Lato', sans-serif, Arial, Helvetica;
     font-size: 30px; 
     font-weight:700;
-    color:#f2f2f2;
+    color:#313035;
 }
 
 h4 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Lato', sans-serif, Arial, Helvetica;
     font-size: 18px; 
     font-weight:400;
-    color:#f2f2f2;
+    color:#313035;
 }
 
 h5 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Lato', sans-serif, Arial, Helvetica;
     font-size: 16px; 
     font-weight:400;
-    color:#f2f2f2;
+    color:#313035;
 }
 
 h6 {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Lato', sans-serif, Arial, Helvetica;
     font-size: 14px; 
     font-weight:400;
-    color:#f2f2f2;
+    color:#313035;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -284,7 +292,7 @@ h6 {
 /*------------------------------------------------------------------------------------------*/
 
 #landing-footer, #landing-footer p, #landing-footer a {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-family: 'Lato', sans-serif, Arial, Helvetica;
     font-size:12px;
     font-weight:normal;
     color:#696969;
