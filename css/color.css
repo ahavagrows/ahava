@@ -20,6 +20,12 @@ body {
 
 .gallery {
     background-color: #F9F9F9;
+    border-top: 1px solid #313035;
+    border-bottom: 1px solid #313035;
+}
+
+.benefits {
+    background-color: #fff
 }
 
 /* Default Link Color */
@@ -208,10 +214,10 @@ body {
 #banner h2 {
     font-family: 'Lato', sans-serif, Arial, Helvetica;
     font-size:25px;
-    font-weight:300;
+    font-weight:400;
     color:#313035;
     filter:hue-rotate(-0.4turn) invert(1);
-    mix-blend-mode: difference;    
+    mix-blend-mode: difference;
 }
 
 
