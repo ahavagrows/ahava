@@ -18,9 +18,8 @@
 - 5.3 Divider
 6. Landing Page Sections
 - 6.1 Features
-- 6.2 Testimonials
 - 6.3 Gallery
-- 6.5 Clients
+- 6.5 Benefits
 - 6.6 Contact
 7. Footer
 
@@ -232,6 +231,11 @@ section {
 /* Targets all elements */
 
 [class*='col-'] {
+    float: left;
+    padding: 20px;
+}
+
+[class*='col-3-4'] {
     float: left;
     padding: 20px;
 }
@@ -682,15 +686,6 @@ h6 {
     padding-top: 10%;
 }
 
-#banner .section-heading:before {
-    content: "";
-    display: block;
-    width: 30px;
-    height: 5px;
-    margin-top: 30px;
-}
-
-
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Content Elements */
@@ -1134,6 +1129,12 @@ h6 {
         margin-top: -30px;
         font-size: 40px;
     }
+}
+
+/* --------- 6.5 Benefits ---------- */
+
+#benefits .benefits {
+    text-align: center;
 }
 
 /* --------- 6.7 Contact Table ---------- */
@@ -1998,3 +1999,7 @@ h6 {
     }
 
 }
+
+
+
+
