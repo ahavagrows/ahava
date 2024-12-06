@@ -210,6 +210,8 @@ body {
     font-size:25px;
     font-weight:300;
     color:#313035;
+    filter:hue-rotate(-0.4turn) invert(1);
+    mix-blend-mode: difference;    
 }
 
 
