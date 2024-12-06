@@ -674,12 +674,12 @@ h6 {
 }
 
 #banner-content.row {
-    padding-top: 170px;
+    padding-top: 300px;
     padding-bottom: 300px;
 }
 
 #banner h1 {
-    padding-top: 20%;
+    padding-top: 10%;
 }
 
 #banner .section-heading:before {
