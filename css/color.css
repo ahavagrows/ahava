@@ -15,17 +15,22 @@
 
 
 body {
-    background:#F6F5F1;
+    background:#f9f9f9;
 }
 
 .gallery {
-    background-color: #F9F9F9;
+    background-color: #F6F5F1;
     border-top: 1px solid #313035;
     border-bottom: 1px solid #313035;
 }
 
 .benefits {
-    background-color: #fff
+    background: url("../images/banner-images/benefits-contact-image.jpg") no-repeat center top;
+    background-size:cover;
+}
+
+.benefits-list {
+    background-color: #150E19;
 }
 
 /* Default Link Color */
@@ -83,6 +88,11 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* #Contact */
 
+#contact {
+    background: url("../images/banner-images/benefits-contact-image.jpg") no-repeat center bottom;
+    background-size:cover;
+}
+
 #contact .section-title {
     color: #F9F9F9;
 }
@@ -139,6 +149,7 @@ a:hover, #header.nav-solid nav a:hover {
 .text-center .section-heading h2:after {
     margin:30px auto 25px auto;
 }
+
 
 /* Primary Icon Colors */
 
@@ -295,6 +306,12 @@ h6 {
     color:#313035;
 }
 
+/* Misc */
+
+.benefits h2, .benefits-list h4, .benefits-list p, .benefits-list h2 {
+    color: #f9f9f9;
+}
+
 /*------------------------------------------------------------------------------------------*/
 /* 7. Footer */
 /*------------------------------------------------------------------------------------------*/
@@ -303,11 +320,11 @@ h6 {
     font-family: 'Lato', sans-serif, Arial, Helvetica;
     font-size:12px;
     font-weight:normal;
-    color:#696969;
+    color:#313035;
 }
 
 /* Footer Icon Color */
 
 #landing-footer i {
-    color:#696969;
+    color:#313035;
 }
