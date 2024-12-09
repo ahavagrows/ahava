@@ -91,6 +91,7 @@ a:hover, #header.nav-solid nav a:hover {
 #contact {
     background: url("../images/banner-images/benefits-contact-image.jpg") no-repeat center bottom;
     background-size:cover;
+    background-attachment: fixed;
 }
 
 #contact .section-title {
