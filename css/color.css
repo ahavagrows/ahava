@@ -320,7 +320,8 @@ h6 {
     font-family: 'Lato', sans-serif, Arial, Helvetica;
     font-size:12px;
     font-weight:normal;
-    color:#313035;
+    color: #f9f9f9;
+    background-color: #150E19;
 }
 
 /* Footer Icon Color */
